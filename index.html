@@ -1,0 +1,609 @@
+<!<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portofolio - Linda Tsalsa Ramadhani</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&family=Quicksand:wght@400;500;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/lightgallery@2.4.0/css/lightgallery-bundle.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- Sidebar Media -->
+    <aside class="sidebar-media">
+        <div class="sidebar-toggle">
+            <i class="fas fa-images"></i>
+        </div>
+        <div class="sidebar-content">
+            <h3>Media Gallery</h3>
+            
+            <!-- Foto -->
+            <div class="media-section">
+                <h4><i class="fas fa-camera"></i> Foto</h4>
+                <div class="media-grid">
+                    <div class="media-item" data-src="WhatsApp Image 2026-01-02 at 22.08.14_6ed00787.jpg">
+                        <img src="WhatsApp Image 2026-01-02 at 22.08.14_6ed00787.jpg" alt="Project 1">
+                        <div class="media-overlay">-tea journey-</div>
+                    </div>
+                    <div class="media-item" data-src="WhatsApp Image 2026-01-02 at 22.10.35_05d86b98.jpg">
+                        <img src="WhatsApp Image 2026-01-02 at 22.10.35_05d86b98.jpg" alt="Project 2">
+                        <div class="media-overlay">-dia razi-</div>
+                    </div>
+                    <div class="media-item" data-src="WhatsApp Image 2026-01-02 at 22.13.13_f20c6d4e.jpg">
+                        <img src="WhatsApp Image 2026-01-02 at 22.13.13_f20c6d4e.jpg" alt="Project 3">
+                        <div class="media-overlay">-0 mdpl-</div>
+                    </div>
+                </div>
+            </div>
+            
+            <!-- Video -->
+            <div class="media-section">
+                <h4><i class="fas fa-video"></i> Video</h4>
+                <div class="video-player">
+                      <video controls poster="cvidio.mp4">
+                        <source src="vidio.mp4" type="video/mp4">
+                        Browser Anda tidak mendukung tag video.
+                    </video>
+                    <p class="video-title">my world</p>
+                </div>
+            </div>
+            
+            <!-- Audio -->
+            <div class="media-section">
+                <h4><i class="fas fa-music"></i> Audio</h4>
+                <div class="audio-player">
+                    <audio controls>
+                        <source src="v4.www-y2mate.blog - LANY - XXL (Official Lyric Video).mp3" type="audio/mpeg">
+                        Browser Anda tidak mendukung tag audio.
+                    </audio>
+                    <p class="audio-title">Coding Focus Music</p>
+                </div>
+            </div>
+            
+            <!-- Dokumen -->
+            <div class="media-section">
+                <h4><i class="fas fa-file-pdf"></i> Dokumen</h4>
+                <div class="document-list">
+                    <a href="sertifikat natisia.pdf" target="_blank" class="document-item">
+                        <i class="fas fa-file-pdf"></i>
+                        <div>
+                            <strong>Sertifikat.pdf</strong>
+                            <span>Sertifikat Seminar Natisia</span>
+                        </div>
+                        <i class="fas fa-download"></i>
+                    </a>
+                    <a href="sertifikat pkkmb.pdf" target="_blank" class="document-item">
+                        <i class="fas fa-file-pdf"></i>
+                        <div>
+                            <strong>Sertifikat.pdf</strong>
+                            <span>Sertifikat Seminar Pkkmb</span>
+                        </div>
+                        <i class="fas fa-download"></i>
+                    </a>
+                    <a href="sertifikat seminar agama.pdf" target="_blank" class="document-item">
+                        <i class="fas fa-file-pdf"></i>
+                        <div>
+                            <strong>Sertifikat.pdf</strong>
+                            <span>Sertifikat Seminar Agama</span>
+                        </div>
+                        <i class="fas fa-download"></i>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </aside>
+
+    <!-- Overlay untuk sidebar -->
+    <div class="sidebar-overlay"></div>
+
+    <!-- Header & Navigation -->
+    <header>
+        <div class="container">
+            <nav>
+                <a href="#" class="logo">Portofolio</a>
+                <ul class="nav-links">
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="#about">Profil</a></li>
+                    <li><a href="#skills">Keahlian</a></li>
+                    <li><a href="#portfolio">Karya</a></li>
+                    <li><a href="#info">informasi</a></li>
+                    <li><a href="#contact">Kontak</a></li>
+                    <li><a href="#" class="btn-media-sidebar">
+                        <i class="fas fa-images"></i> Media
+                    </a></li>
+                </ul>
+                <div class="mobile-menu-btn">
+                    <i class="fas fa-bars"></i>
+                </div>
+            </nav>
+        </div>
+    </header>
+
+    <!-- Hero Section (Home) -->
+    <section id="home" class="hero">
+        <div class="container">
+            <div class="hero-content">
+                <div class="hero-text">
+                    <h1>Halo, saya <span>tsalsaa</span></h1>
+                    <p>Saya seorang mahasiswi Sistem Informasi Universitas Pamulang dengan passion dalam pengembangan web dan teknologi. Saya senang menciptakan solusi digital yang kreatif dan fungsional.</p>
+                    <a href="#about" class="btn">Pelajari Lebih Lanjut</a>
+                </div>
+                <div class="hero-image">
+                    <!-- Ganti dengan foto Anda -->
+                     <img src="2.jpg" alt="Foto Profil" class="profile-img">
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section (Profil) -->
+    <section id="about" class="about">
+        <div class="container">
+            <div class="section-title">
+                <h2>Profil & Data Diri</h2>
+            </div>
+            <div class="about-content">
+                <div class="about-text">
+                    <h3>Tentang Saya</h3>
+                    <p>Saya adalah mahasiswi semester gasal Program Studi Sistem Informasi Universitas Pamulang. Saya memiliki minat yang besar dalam pengembangan web dan teknologi informasi. Saya selalu bersemangat untuk mempelajari hal-hal baru dan menerapkan pengetahuan yang saya dapatkan untuk menciptakan solusi yang inovatif.</p>
+                    
+                    <div class="personal-info">
+                        <div class="info-item">
+                        <div class="info-label">Nama Lengkap</div>
+                            <div>: Linda Tsalsa Ramadhani</div>
+                        </div>
+                        <div class="info-item">
+                            <div class="info-label">NIM</div>
+                            <div>: 251011700757</div>
+                        </div>
+                        <div class="info-item">
+                            <div class="info-label">Kelas</div>
+                            <div>: 01SIFP012</div>
+                        </div>
+                        <div class="info-item">
+                            <div class="info-label">Program Studi</div>
+                            <div>: Sistem Informasi S1</div>
+                        </div>
+                        <div class="info-item">
+                            <div class="info-label">Universitas</div>
+                            <div>: Universitas Pamulang</div>
+                        </div>
+                          <div class="info-item">
+                            <div class="info-label">No Telepon</div>
+                            <div>: 087756785451</div>
+                        </div>
+                        <div class="info-item">
+                            <div class="info-label">Email</div>
+                            <div>: tsalsalinda@gmail.com</div>
+                        </div>
+                          <div class="info-item">
+                            <div class="info-label">Alamat</div>
+                            <div>: Jl. Wisma tajur, kota tangerang Selatan, Banten</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Skills Section (Keahlian) -->
+    <section id="skills" class="skills">
+        <div class="container">
+            <div class="section-title">
+                <h2>Keahlian & Minat</h2>
+            </div>
+            <div class="skills-container">
+                <div class="skill-category">
+                    <h3><i class="fas fa-code"></i> Teknologi Web</h3>
+                    <div class="skill-item">
+                        <div class="skill-name">
+                            <span>HTML & CSS</span>
+                            <span>90%</span>
+                        </div>
+                        <div class="skill-bar">
+                            <div class="skill-progress" style="width: 90%"></div>
+                        </div>
+                    </div>
+                    <div class="skill-item">
+                        <div class="skill-name">
+                            <span>JavaScript</span>
+                            <span>80%</span>
+                        </div>
+                        <div class="skill-bar">
+                            <div class="skill-progress" style="width: 80%"></div>
+                        </div>
+                    </div>
+                    <div class="skill-item">
+                        <div class="skill-name">
+                            <span>MySQL</span>
+                            <span>75%</span>
+                        </div>
+                        <div class="skill-bar">
+                            <div class="skill-progress" style="width: 75%"></div>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="skill-category">
+                    <h3><i class="fas fa-paint-brush"></i> Desain</h3>
+                    <div class="skill-item">
+                        <div class="skill-name">
+                            <span>Menggambar</span>
+                            <span>90%</span>
+                        </div>
+                        <div class="skill-bar">
+                            <div class="skill-progress" style="width: 85%"></div>
+                        </div>
+                    </div>
+                    <div class="skill-item">
+                        <div class="skill-name">
+                            <span>Figma</span>
+                            <span>80%</span>
+                        </div>
+                        <div class="skill-bar">
+                            <div class="skill-progress" style="width: 80%"></div>
+                        </div>
+                    </div>
+                    <div class="skill-item">
+                        <div class="skill-name">
+                            <span>Canva</span>
+                            <span>70%</span>
+                        </div>
+                        <div class="skill-bar">
+                            <div class="skill-progress" style="width: 70%"></div>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="skill-category">
+                    <h3><i class="fas fa-language"></i> Bahasa</h3>
+                    <div class="skill-item">
+                        <div class="skill-name">
+                            <span>Bahasa Indonesia</span>
+                            <span>100%</span>
+                        </div>
+                        <div class="skill-bar">
+                            <div class="skill-progress" style="width: 100%"></div>
+                        </div>
+                    </div>
+                    <div class="skill-item">
+                        <div class="skill-name">
+                            <span>Bahasa Inggris</span>
+                            <span>75%</span>
+                        </div>
+                        <div class="skill-bar">
+                            <div class="skill-progress" style="width: 75%"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Portfolio Section (Karya) -->
+    <section id="portfolio" class="portfolio">
+        <div class="container">
+            <div class="section-title">
+                <h2>Karya & Project</h2>
+            </div>
+            <div class="portfolio-grid">
+                <div class="portfolio-item">
+                    <img src="c:\Users\lenovo\OneDrive\Gambar\Screenshot 2026-01-03 112259.png" alt="Website Kalkulator Nilai Mahasiswa" class="portfolio-img">
+                    <div class="portfolio-info">
+                        <h3>Website Kalkulator Nilai Mahasiswa</h3>
+                        <p>Website untuk menghitung nilai akhir Mahasiswa secara otomatis. hanya tinggal memasukkan nilai tugas, uts, uas, dan kehadian, lalu web akan menampilkan skor akhir.</p>
+                    </div>
+                </div>
+                
+                <div class="portfolio-item">
+                    <img src="c:\Users\lenovo\OneDrive\Gambar\Screenshot 2026-01-03 112136.png" alt="Dashboard Admin/ Website Boostrap 5" class="portfolio-img">
+                    <div class="portfolio-info">
+                        <h3>Dashboard Admin/ Website Boostrap 5</h3>
+                        <p>Aplikasi web untuk memantau data secara ringkas, yang dimana terdapat ringkasan jumlah pengguna, tugas yang slesai, progress kerja, serta menu navigasi untuk mengelola komponen dan statistik aktivitas terbaru.</p>
+                    </div>
+                </div>
+                
+                <div class="portfolio-item">
+                    <img src="c:\Users\lenovo\OneDrive\Gambar\Screenshot 2026-01-03 112514.png" alt="Website Personal Home Page" class="portfolio-img">
+                    <div class="portfolio-info">
+                        <h3>Website Personal Home Page</h3>
+                        <p>Halaman web pribadi untuk memperkenalkan diri pemilik web, menampilkan koleksi, menyediakan link ke situs favorit, dan fitur buku tamu (guest book).</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+        <!-- Informasi Section (Layanan, Statistik, Timeline) -->
+    <section id="info" class="info-section-main">
+        <div class="container">
+            <div class="section-title">
+                <h2>Informasi </h2>
+            </div>
+            
+            <div class="info-content">
+                <!-- Layanan -->
+                <div class="info-category">
+                    <h3><i class="fas fa-cogs"></i> Layanan</h3>
+                    
+                    <div class="service-card">
+                        <h4>Website Personal</h4>
+                        <p>Artikel kumparan bebas request tema</p>
+                        <div class="service-price">Rp 1.500.000</div>
+                        <ul class="service-features">
+                            <li><i class="fas fa-check"></i> 100% Diterima</li>
+                            <li><i class="fas fa-check"></i> Hosting 1 Tahun</li>
+                            <li><i class="fas fa-check"></i> Support 6 Bulan</li>
+                        </ul>
+                    </div>
+                    
+                    <div class="service-card">
+                        <h4>Website Bisnis</h4>
+                        <p>Website perusahaan dengan CMS dan dashboard admin</p>
+                        <div class="service-price">Rp 3.500.000</div>
+                        <ul class="service-features">
+                            <li><i class="fas fa-check"></i> 10+ Halaman</li>
+                            <li><i class="fas fa-check"></i> CMS Custom</li>
+                            <li><i class="fas fa-check"></i> Integrasi Database</li>
+                            <li><i class="fas fa-check"></i> Training Pengguna</li>
+                        </ul>
+                    </div>
+                    
+                    <div class="service-card">
+                        <h4>Konsultasi IT</h4>
+                        <p>Konsultasi dan troubleshooting masalah teknologi</p>
+                        <div class="service-price">Rp 300.000/jam</div>
+                        <ul class="service-features">
+                            <li><i class="fas fa-check"></i> Analisis Kebutuhan</li>
+                            <li><i class="fas fa-check"></i> Solusi Teknis</li>
+                            <li><i class="fas fa-check"></i> Implementasi</li>
+                            <li><i class="fas fa-check"></i> Laporan Lengkap</li>
+                        </ul>
+                    </div>
+                </div>
+                
+                <!-- Statistik -->
+                <div class="info-category">
+                    <h3><i class="fas fa-chart-line"></i> Statistik</h3>
+                    
+                    <div class="stats-container">
+                        <div class="stat-card">
+                            <div class="stat-number">15+</div>
+                            <div class="stat-label">Project Selesai</div>
+                        </div>
+                        
+                        <div class="stat-card">
+                            <div class="stat-number">100%</div>
+                            <div class="stat-label">Klien Puas</div>
+                        </div>
+                        
+                        <div class="stat-card">
+                            <div class="stat-number">+</div>
+                            <div class="stat-label">Tahun Pengalaman</div>
+                        </div>
+                        
+                        <div class="stat-card">
+                            <div class="stat-number">95%</div>
+                            <div class="stat-label">Tingkat Kepuasan</div>
+                        </div>
+                    </div>
+                </div>
+                
+                <!-- Timeline Perkembangan -->
+                <div class="info-category">
+                    <h3><i class="fas fa-history"></i> Timeline Perkembangan</h3>
+                    
+                    <div class="timeline-main">
+                        <div class="timeline-item-main">
+                            <div class="timeline-date-main">2025</div>
+                            <div class="timeline-content-main">
+                                <h4>Memulai Perjalanan IT</h4>
+                                <p>Memulai pendidikan di Sistem Informasi dan mengembangkan skill dasar pemrograman</p>
+                            </div>
+                        </div>
+                        
+                        <div class="timeline-item-main">
+                            <div class="timeline-date-main">2025</div>
+                            <div class="timeline-content-main">
+                                <h4>Project Pertama</h4>
+                                <p>Menyelesaikan project pertama berupa website Tugas Tugas Kuliah</p>
+                            </div>
+                        </div>
+                        
+                        <div class="timeline-item-main">
+                            <div class="timeline-date-main">2025</div>
+                            <div class="timeline-content-main">
+                                <h4>Spesialisasi Web</h4>
+                                <p>Fokus pada pengembangan web modern dengan teknologi terbaru</p>
+                            </div>
+                        </div>
+                        
+                        <div class="timeline-item-main">
+                            <div class="timeline-date-main">2026</div>
+                            <div class="timeline-content-main">
+                                <h4>Portofolio Profesional</h4>
+                                <p>Membangun portofolio lengkap dan menawarkan layanan profesional</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="info-action-container">
+                    <a href="#contact" class="btn info-action-btn">
+                        <i class="fas fa-paper-plane"></i> Konsultasi Sekarang
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact">
+        <div class="container">
+            <div class="section-title">
+                <h2>Kontak & Lokasi</h2>
+            </div>
+            <div class="contact-container">
+                <div class="contact-info">
+                    <h3>Informasi Kontak</h3>
+                    <div class="contact-item">
+                        <div class="contact-icon">
+                            <i class="fas fa-map-marker-alt"></i>
+                        </div>
+                        <div>
+                            <h4>Alamat</h4>
+                            <p>jl.Wisma Tajur, Kota Tangerang Selatan, Banten</p>
+                        </div>
+                    </div>
+                    <div class="contact-item">
+                        <div class="contact-icon">
+                            <i class="fas fa-envelope"></i>
+                        </div>
+                        <div>
+                            <h4>Email</h4>
+                            <p>tsalsalinda@gmail.com</p>
+                        </div>
+                    </div>
+                    <div class="contact-item">
+                        <div class="contact-icon">
+                            <i class="fas fa-phone"></i>
+                        </div>
+                        <div>
+                            <h4>Telepon</h4>
+                            <p>+62 87756785451</p>
+                        </div>
+                    </div>
+                    <div class="contact-item">
+                        <div class="contact-icon">
+                            <i class="fas fa-clock"></i>
+                        </div>
+
+                        <div>
+                            <h4>Jam Kuliah</h4>
+                            <p>Senin: 08:50 - 12:10</p>
+                            <p>Selasa-Rabu: 07:10 - 14:40</p>
+                            <p>Jumat: 08:50 - 10:30</p>
+                        </div>
+                         <div>
+                            <h4>Jam Kerja</h4>
+                            <p>Kalau Ada Waktu Luang</p>
+                        </div>
+                    </div>
+                    
+                    <div class="map-container">
+                        <h4>Lokasi Tangerang Selatan</h4>
+                        <div class="map-wrapper">
+                            <!-- Google Maps Embed -->
+                            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3965.317130708213!2d106.73463697464067!3d-6.34243099364332!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e69ef2a5b5e86cf%3A0x5c5c3b6e1b1b1b1b!2sTangerang%20Selatan%2C%20Kota%20Tangerang%20Selatan%2C%20Banten!5e0!3m2!1sid!2sid!4v1693476543210!5m2!1sid!2sid" 
+                                    width="100%" 
+                                    height="250" 
+                                    style="border:0;" 
+                                    allowfullscreen="" 
+                                    loading="lazy" 
+                                    referrerpolicy="no-referrer-when-downgrade">
+                            </iframe>
+                        </div>
+                        <p class="map-note">
+                            <i class="fas fa-info-circle"></i> 
+                            Lokasi: Tangerang Selatan, Banten
+                        </p>
+                    </div>
+                    
+                    <h3 style="margin-top: 30px;">Media Sosial</h3>
+                   <div class="social-links">
+                    <a href="#" class="social-link"><i class="fab fa-linkedin-in"></i></a>
+                    <a href="https://www.instagram.com/lindtslsrm?igsh=MTZ0MWZ2MDU2eDVkeQ==" class="social-link"><i class="fab fa-instagram"></i></a>
+                    <a href="https://www.tiktok.com/@jieomal?_r=1&_t=ZS-92ki21MVPzF" class="social-link"><i class="fab fa-tiktok"></i></a>
+                    <a href="#" class="social-link"><i class="fab fa-twitter"></i></a>
+                    <a href="#" class="social-link"><i class="fab fa-github"></i></a>
+                    </div>
+                </div>
+                
+                <div class="contact-form">
+                    <h3>Kirim Pesan</h3>
+                    <form id="messageForm">
+                        <div class="form-group">
+                            <label for="name">Nama Lengkap</label>
+                            <input type="text" id="name" class="form-control" placeholder="Masukkan nama lengkap" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="email">Email</label>
+                            <input type="email" id="email" class="form-control" placeholder="Masukkan email" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="subject">Subjek</label>
+                            <input type="text" id="subject" class="form-control" placeholder="Masukkan subjek pesan" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="message">Pesan</label>
+                            <textarea id="message" class="form-control" rows="5" placeholder="Tulis pesan Anda" required></textarea>
+                        </div>
+                        <button type="submit" class="btn">Kirim Pesan</button>
+                    </form>
+                    
+                    <!-- FAQ Section -->
+                    <div class="faq-section">
+                        <h4><i class="fas fa-question-circle"></i> Pertanyaan Umum</h4>
+                        <div class="faq-item">
+                            <div class="faq-question">
+                                <span>Berapa lama waktu pengerjaan project?</span>
+                                <i class="fas fa-chevron-down"></i>
+                            </div>
+                            <div class="faq-answer">
+                                <p>Waktu pengerjaan bervariasi tergantung kompleksitas project, mulai dari 1-4 minggu.</p>
+                            </div>
+                        </div>
+                        <div class="faq-item">
+                            <div class="faq-question">
+                                <span>Apakah menyediakan revisi?</span>
+                                <i class="fas fa-chevron-down"></i>
+                            </div>
+                            <div class="faq-answer">
+                                <p>Ya, tersedia 2 kali revisi minor setelah project selesai.</p>
+                            </div>
+                        </div>
+                        <div class="faq-item">
+                            <div class="faq-question">
+                                <span>Bisa konsultasi via apa saja?</span>
+                                <i class="fas fa-chevron-down"></i>
+                            </div>
+                            <div class="faq-answer">
+                                <p>Konsultasi bisa melalui WhatsApp, Email, atau Zoom Meeting.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <div class="container">
+            <div class="footer-content">
+                <div class="logo" style="color: white; background: none;">Portofolio</div>
+                <p>Mahasiswa Sistem Informasi - Universitas Pamulang</p>
+            </div>
+            <div class="footer-links">
+                <a href="#home">Home</a>
+                <a href="#about">Profil</a>
+                <a href="#skills">Keahlian</a>
+                <a href="#portfolio">Karya</a>
+                <a href="#info">Informasi</a>
+                <a href="#contact">Kontak</a>
+                <a href="#" class="btn-media-footer">
+                    <i class="fas fa-images"></i> Media Gallery
+                </a>
+            </div>
+            <div class="copyright">
+                <p>&copy; 2026 Portofolio Linda Tsalsa Ramadhani. Semua hak dilindungi. | Tangerang Selatan, Banten</p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Scripts -->
+    <script src="https://cdn.jsdelivr.net/npm/lightgallery@2.4.0/lightgallery.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/lightgallery@2.4.0/plugins/thumbnail/lg-thumbnail.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/lightgallery@2.4.0/plugins/zoom/lg-zoom.min.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>
